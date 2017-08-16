@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <style>
+      body {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5>Filter My Feed Options:</h5>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <div id="status"></div>
+            </div>
+
+            <div class="input-field col s12">
+              <input value="Nazis, Nuclear War, Kittens" id="filters" type="text" />
+              <label class="active" for="filters">Remove posts with:</label>
+              <button id="submit" class="waves-effect waves-light btn red">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="options.js"></script>
+  </body>
+</html>
+
